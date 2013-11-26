@@ -9,6 +9,7 @@
     - vars/asterisk_user.yml
   roles:
     - asterisk-install
-  tags:
-    - deploy
+  tasks:
+    - name: Start asterisk
+      service: name=asterisk state=started
 
