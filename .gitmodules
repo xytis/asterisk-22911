@@ -1,0 +1,9 @@
+[submodule "provisioning/roles/asterisk-install"]
+	path = provisioning/roles/asterisk-install
+	url = https://github.com/kupishkis/role.asterisk-install.git
+[submodule "provisioning/roles/ntp"]
+	path = provisioning/roles/ntp
+	url = https://github.com/kupishkis/role.ntp.git
+[submodule "provisioning/roles/build-essential"]
+	path = provisioning/roles/build-essential
+	url = https://github.com/kupishkis/role.build-essential.git

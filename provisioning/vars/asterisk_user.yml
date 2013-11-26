@@ -1,0 +1,12 @@
+---
+asterisk_user:    vagrant
+asterisk_group:   vagrant
+
+asterisk_db_user: $asterisk_user
+asterisk_db_pass: $asterisk_db_user
+asterisk_db_name: $asterisk_db_user
+asterisk_db_host: localhost
+asterisk_db_port: 3306
+
+asterisk_ari_user: ast
+asterisk_ari_pass: ast

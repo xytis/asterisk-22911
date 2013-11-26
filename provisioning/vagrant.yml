@@ -1,0 +1,14 @@
+# -*- mode: yaml -*-
+# vi: set ft=yaml :
+
+---
+- name: Obtain and build asterisk, prepare other tasks.
+  hosts: all
+  user: vagrant
+  vars_files:
+    - vars/asterisk_user.yml
+  roles:
+    - asterisk-install
+  tags:
+    - deploy
+
