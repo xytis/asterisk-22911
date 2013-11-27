@@ -1,0 +1,141 @@
+[Nov 27 11:31:26] Asterisk SVN-trunk-r403135 built by vagrant @ precise64 on a x86_64 running Linux on 2013-11-26 19:56:51 UTC
+[Nov 27 11:31:26] DEBUG[3003] config.c: Parsing /etc/asterisk/logger.conf
+[Nov 27 11:31:26] VERBOSE[3003] config.c:   == Parsing '/etc/asterisk/logger.conf': Found
+[Nov 27 11:31:26] VERBOSE[3003] logger.c:  Asterisk Queue Logger restarted
+[Nov 27 11:31:29] VERBOSE[2819] chan_sip.c: 
+ÿ<--- SIP read from UDP:10.15.38.51:39247 --->
+ÿ
+ÿ
+ÿ<------------->
+[Nov 27 11:31:29] DEBUG[2819] chan_sip.c:  Header  0 [  0]: 
+[Nov 27 11:31:33] VERBOSE[3005] chan_sip.c: 
+ÿ<--- SIP read from WS:10.15.38.51:53543 --->
+ÿREGISTER sip:asterisk SIP/2.0
+ÿVia: SIP/2.0/WS df7jal23ls0d.invalid;branch=z9hG4bKvQWtFTFGMi97xC8ZaXWMQHWuLD5r4ZLl;rport
+ÿFrom: "1111"<sip:1111@10.15.38.211>;tag=sLT4btRJhJRzBf0lpEVr
+ÿTo: "1111"<sip:1111@10.15.38.211>
+ÿContact: "1111"<sip:1111@df7jal23ls0d.invalid;rtcweb-breaker=no;transport=ws>;expires=0;click2call=no;+g.oma.sip-im;+audio;language="en,fr"
+ÿCall-ID: e32f845c-5f36-af8b-e52c-46d44dabedaf
+ÿCSeq: 40952 REGISTER
+ÿContent-Length: 0
+ÿMax-Forwards: 70
+ÿAuthorization: Digest username="1111",realm="asterisk",nonce="1d78fc4d",uri="sip:asterisk",response="ee5cfddbca5912a0a35746d6615b65bb",algorithm=MD5
+ÿUser-Agent: IM-client/OMA1.0 sipML5-v1.2013.08.10B
+ÿOrganization: Doubango Telecom
+ÿ
+ÿ<------------->
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c:  Header  0 [ 29]: REGISTER sip:asterisk SIP/2.0
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c:  Header  1 [ 89]: Via: SIP/2.0/WS df7jal23ls0d.invalid;branch=z9hG4bKvQWtFTFGMi97xC8ZaXWMQHWuLD5r4ZLl;rport
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c:  Header  2 [ 60]: From: "1111"<sip:1111@10.15.38.211>;tag=sLT4btRJhJRzBf0lpEVr
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c:  Header  3 [ 33]: To: "1111"<sip:1111@10.15.38.211>
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c:  Header  4 [139]: Contact: "1111"<sip:1111@df7jal23ls0d.invalid;rtcweb-breaker=no;transport=ws>;expires=0;click2call=no;+g.oma.sip-im;+audio;language="en,fr"
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c:  Header  5 [ 45]: Call-ID: e32f845c-5f36-af8b-e52c-46d44dabedaf
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c:  Header  6 [ 20]: CSeq: 40952 REGISTER
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c:  Header  7 [ 17]: Content-Length: 0
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c:  Header  8 [ 16]: Max-Forwards: 70
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c:  Header  9 [148]: Authorization: Digest username="1111",realm="asterisk",nonce="1d78fc4d",uri="sip:asterisk",response="ee5cfddbca5912a0a35746d6615b65bb",algorithm=MD5
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c:  Header 10 [ 50]: User-Agent: IM-client/OMA1.0 sipML5-v1.2013.08.10B
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c:  Header 11 [ 30]: Organization: Doubango Telecom
+[Nov 27 11:31:33] VERBOSE[3005] chan_sip.c: --- (12 headers 0 lines) ---
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c: = Looking for  Call ID: e32f845c-5f36-af8b-e52c-46d44dabedaf (Checking From) --From tag sLT4btRJhJRzBf0lpEVr --To-tag   
+[Nov 27 11:31:33] DEBUG[3005] netsock2.c: Splitting 'asterisk' into...
+[Nov 27 11:31:33] DEBUG[3005] netsock2.c: ...host 'asterisk' and port ''.
+[Nov 27 11:31:33] DEBUG[3005] netsock2.c: Splitting 'asterisk' into...
+[Nov 27 11:31:33] DEBUG[3005] netsock2.c: ...host 'asterisk' and port ''.
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c: **** Received REGISTER (2) - Command in SIP REGISTER
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c: Initializing initreq for method REGISTER - callid e32f845c-5f36-af8b-e52c-46d44dabedaf
+[Nov 27 11:31:33] DEBUG[3005] netsock2.c: Splitting '10.15.38.211' into...
+[Nov 27 11:31:33] DEBUG[3005] netsock2.c: ...host '10.15.38.211' and port ''.
+[Nov 27 11:31:33] NOTICE[3005] chan_sip.c: Correct auth, but based on stale nonce received from '"1111"<sip:1111@10.15.38.211>;tag=sLT4btRJhJRzBf0lpEVr'
+[Nov 27 11:31:33] VERBOSE[3005] chan_sip.c: 
+ÿ<--- Transmitting (NAT) to 10.15.38.51:53543 --->
+ÿSIP/2.0 401 Unauthorized
+ÿVia: SIP/2.0/WS df7jal23ls0d.invalid;branch=z9hG4bKvQWtFTFGMi97xC8ZaXWMQHWuLD5r4ZLl;received=10.15.38.51;rport=53543
+ÿFrom: "1111"<sip:1111@10.15.38.211>;tag=sLT4btRJhJRzBf0lpEVr
+ÿTo: "1111"<sip:1111@10.15.38.211>;tag=as7aa95997
+ÿCall-ID: e32f845c-5f36-af8b-e52c-46d44dabedaf
+ÿCSeq: 40952 REGISTER
+ÿServer: Asterisk PBX SVN-trunk-r403135
+ÿAllow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH
+ÿSupported: replaces, timer
+ÿWWW-Authenticate: Digest algorithm=MD5, realm="asterisk", nonce="770aceba", stale=true
+ÿContent-Length: 0
+ÿ
+ÿ
+ÿ<------------>
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c: Trying to put 'SIP/2.0 401' onto WS socket destined for 10.15.38.51:53543
+[Nov 27 11:31:33] VERBOSE[3005] chan_sip.c: Scheduling destruction of SIP dialog 'e32f845c-5f36-af8b-e52c-46d44dabedaf' in 32000 ms (Method: REGISTER)
+[Nov 27 11:31:33] VERBOSE[3005] chan_sip.c: 
+ÿ<--- SIP read from WS:10.15.38.51:53543 --->
+ÿREGISTER sip:asterisk SIP/2.0
+ÿVia: SIP/2.0/WS df7jal23ls0d.invalid;branch=z9hG4bKAt4CMimJZV2dAoMZ301T9zsFBfDuzsiH;rport
+ÿFrom: "1111"<sip:1111@10.15.38.211>;tag=sLT4btRJhJRzBf0lpEVr
+ÿTo: "1111"<sip:1111@10.15.38.211>
+ÿContact: "1111"<sip:1111@df7jal23ls0d.invalid;rtcweb-breaker=no;transport=ws>;expires=0;click2call=no;+g.oma.sip-im;+audio;language="en,fr"
+ÿCall-ID: e32f845c-5f36-af8b-e52c-46d44dabedaf
+ÿCSeq: 40953 REGISTER
+ÿContent-Length: 0
+ÿMax-Forwards: 70
+ÿAuthorization: Digest username="1111",realm="asterisk",nonce="770aceba",uri="sip:asterisk",response="a1fc2c9b664bddef0c42eed9dc1091db",algorithm=MD5
+ÿUser-Agent: IM-client/OMA1.0 sipML5-v1.2013.08.10B
+ÿOrganization: Doubango Telecom
+ÿ
+ÿ<------------->
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c:  Header  0 [ 29]: REGISTER sip:asterisk SIP/2.0
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c:  Header  1 [ 89]: Via: SIP/2.0/WS df7jal23ls0d.invalid;branch=z9hG4bKAt4CMimJZV2dAoMZ301T9zsFBfDuzsiH;rport
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c:  Header  2 [ 60]: From: "1111"<sip:1111@10.15.38.211>;tag=sLT4btRJhJRzBf0lpEVr
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c:  Header  3 [ 33]: To: "1111"<sip:1111@10.15.38.211>
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c:  Header  4 [139]: Contact: "1111"<sip:1111@df7jal23ls0d.invalid;rtcweb-breaker=no;transport=ws>;expires=0;click2call=no;+g.oma.sip-im;+audio;language="en,fr"
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c:  Header  5 [ 45]: Call-ID: e32f845c-5f36-af8b-e52c-46d44dabedaf
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c:  Header  6 [ 20]: CSeq: 40953 REGISTER
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c:  Header  7 [ 17]: Content-Length: 0
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c:  Header  8 [ 16]: Max-Forwards: 70
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c:  Header  9 [148]: Authorization: Digest username="1111",realm="asterisk",nonce="770aceba",uri="sip:asterisk",response="a1fc2c9b664bddef0c42eed9dc1091db",algorithm=MD5
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c:  Header 10 [ 50]: User-Agent: IM-client/OMA1.0 sipML5-v1.2013.08.10B
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c:  Header 11 [ 30]: Organization: Doubango Telecom
+[Nov 27 11:31:33] VERBOSE[3005] chan_sip.c: --- (12 headers 0 lines) ---
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c: = Looking for  Call ID: e32f845c-5f36-af8b-e52c-46d44dabedaf (Checking From) --From tag sLT4btRJhJRzBf0lpEVr --To-tag   
+[Nov 27 11:31:33] DEBUG[3005] netsock2.c: Splitting 'asterisk' into...
+[Nov 27 11:31:33] DEBUG[3005] netsock2.c: ...host 'asterisk' and port ''.
+[Nov 27 11:31:33] DEBUG[3005] netsock2.c: Splitting 'asterisk' into...
+[Nov 27 11:31:33] DEBUG[3005] netsock2.c: ...host 'asterisk' and port ''.
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c: **** Received REGISTER (2) - Command in SIP REGISTER
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c: Initializing initreq for method REGISTER - callid e32f845c-5f36-af8b-e52c-46d44dabedaf
+[Nov 27 11:31:33] DEBUG[3005] netsock2.c: Splitting '10.15.38.211' into...
+[Nov 27 11:31:33] DEBUG[3005] netsock2.c: ...host '10.15.38.211' and port ''.
+[Nov 27 11:31:33] VERBOSE[3005] chan_sip.c:     -- Unregistered SIP '1111'
+[Nov 27 11:31:33] DEBUG[2794] devicestate.c: No provider found, checking channel drivers for SIP - 1111
+[Nov 27 11:31:33] DEBUG[2794] chan_sip.c: Checking device state for peer 1111
+[Nov 27 11:31:33] VERBOSE[3005] chan_sip.c: 
+ÿ<--- Transmitting (NAT) to 10.15.38.51:53543 --->
+ÿSIP/2.0 200 OK
+ÿVia: SIP/2.0/WS df7jal23ls0d.invalid;branch=z9hG4bKAt4CMimJZV2dAoMZ301T9zsFBfDuzsiH;received=10.15.38.51;rport=53543
+ÿFrom: "1111"<sip:1111@10.15.38.211>;tag=sLT4btRJhJRzBf0lpEVr
+ÿTo: "1111"<sip:1111@10.15.38.211>;tag=as7aa95997
+ÿCall-ID: e32f845c-5f36-af8b-e52c-46d44dabedaf
+ÿCSeq: 40953 REGISTER
+ÿServer: Asterisk PBX SVN-trunk-r403135
+ÿAllow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH
+ÿSupported: replaces, timer
+ÿExpires: 0
+ÿDate: Wed, 27 Nov 2013 11:31:33 GMT
+ÿContent-Length: 0
+ÿ
+ÿ
+ÿ<------------>
+[Nov 27 11:31:33] DEBUG[2794] devicestate.c: Changing state for SIP/1111 - state 5 (Unavailable)
+[Nov 27 11:31:33] DEBUG[3005] chan_sip.c: Trying to put 'SIP/2.0 200' onto WS socket destined for 10.15.38.51:53543
+[Nov 27 11:31:33] DEBUG[2788] devicestate.c: Processing device state change for 'SIP/1111'
+[Nov 27 11:31:33] DEBUG[2788] devicestate.c: Adding per-server state of 'Unavailable' for 'SIP/1111'
+[Nov 27 11:31:33] DEBUG[2788] devicestate.c: Aggregate devstate result is 'Unavailable' for 'SIP/1111'
+[Nov 27 11:31:33] DEBUG[2788] devicestate.c: Aggregate state for device 'SIP/1111' has changed to 'Unavailable'
+[Nov 27 11:31:33] DEBUG[2851] app_queue.c: Device 'SIP/1111' changed to state '5' (Unavailable) but we don't care because they're not a member of any queue.
+[Nov 27 11:31:33] DEBUG[2794] devicestate.c: No provider found, checking channel drivers for SIP - 1111
+[Nov 27 11:31:33] DEBUG[2794] chan_sip.c: Checking device state for peer 1111
+[Nov 27 11:31:33] DEBUG[2794] devicestate.c: Changing state for SIP/1111 - state 5 (Unavailable)
+[Nov 27 11:31:33] VERBOSE[3005] chan_sip.c: Scheduling destruction of SIP dialog 'e32f845c-5f36-af8b-e52c-46d44dabedaf' in 32000 ms (Method: REGISTER)
+[Nov 27 11:31:33] DEBUG[2788] devicestate.c: Processing device state change for 'SIP/1111'
+[Nov 27 11:31:33] DEBUG[2788] devicestate.c: Adding per-server state of 'Unavailable' for 'SIP/1111'
+[Nov 27 11:31:33] DEBUG[2788] devicestate.c: Aggregate devstate result is 'Unavailable' for 'SIP/1111'
+[Nov 27 11:31:33] DEBUG[2788] devicestate.c: Aggregate state for device 'SIP/1111' has not changed from 'Unavailable'
+[Nov 27 11:31:33] VERBOSE[3005] res_http_websocket.c:   == WebSocket connection from '10.15.38.51:53543' closed
